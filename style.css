@@ -1,0 +1,23 @@
+body{
+    background:linear-gradient(to bottom right,rgb(10, 228, 10) 30%,rgb(39, 170, 39) 60%,green 90%);
+}
+.header{
+    font-family:'Dancing Script', cursive;
+    font-size: 50px;
+    color:white;
+    background-color: darkgreen;
+    width:300px;
+    height:60px;
+}
+.list{
+    color:white;
+    font-size:25px;
+    margin:0px auto;
+}
+#camera{
+    border:2px darkgreen dashed;
+    height:300px;
+}
+.photo{
+    border:2px darkgreen double;
+}

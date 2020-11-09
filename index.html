@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Face rocognizer</title> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+        <style>
+            body{
+                background:linear-gradient(to bottom right,rgb(10, 228, 10) 30%,rgb(39, 170, 39) 60%,green 90%);
+            }
+            h1{
+                color:white;
+                font-size: 70px;
+                font-weight: bold;
+                margin-top:250px;
+                font-family: 'Dancing Script', cursive;
+            }
+        </style>
+    </head>
+    <body onload="setTimeout(load,500);setTimeout(load1,1000);setTimeout(load2,1500);setTimeout(load3,2000);setTimeout(load4,2500);setTimeout(load5,3500)">
+    <center>
+        <h1 id="text">Face Recognizer</h1>
+    </center>
+    <script>
+        function load(){
+            document.getElementById("text").style.opacity = 0.8;
+        }
+        function load1(){
+            document.getElementById("text").style.opacity = 0.6;
+        }
+        function load2(){
+            document.getElementById("text").style.opacity = 0.4;
+        }
+        function load3(){
+            document.getElementById("text").style.opacity = 0.2;
+        }
+        function load4(){
+            document.getElementById("text").style.opacity = 0;
+            window.location = "index2.html";
+        }
+        function load5(){
+            window.location = "index2.html";
+        }
+    </script>
+    </body>
+</html>
